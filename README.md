@@ -29,7 +29,7 @@
 
 Per l'elenco completo dei moduli, delle fasi della pipeline IA e della struttura delle directory, consulta la guida dettagliata:
 
-👉 [Leggi la Documentazione Tecnica Completa (DOCS.md)](docs/DOCS.md)
+👉 [Leggi la Documentazione Tecnica Completa (DOCS.md)](DOCS.md)
 
 ---
 
