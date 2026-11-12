@@ -35,9 +35,6 @@ Per l'elenco completo dei moduli, delle fasi della pipeline IA e della struttura
 
 ## 📦 Avvio Rapido
 
-### Scarica l'Esecutivo
-Scarica l'eseguibile portatile `.exe` pronto all'uso dalla sezione [Releases](https://github.com/G-Martire/GitMap_Control/releases).
-
 ### Configurazione per Sviluppatori
 
 ```bash
