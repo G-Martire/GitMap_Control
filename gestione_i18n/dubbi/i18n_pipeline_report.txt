@@ -1,0 +1,8 @@
+[UPDATE JSON] 📦 Trovate 26 stringhe approvate per l'aggiornamento JSON.
+[UPDATE JSON] ✅ File JSON principale aggiornato con successo: C:/Users/Beppe/Desktop/PADAS DevStudio/applicazioni/Tools/GitMap_Control\locales\it.json (Inserite: 26 chiavi)
+[APPLY CODE] 📦 Trovate 26 stringhe da sostituire nel codice.
+[APPLY CODE] 🛡️ Creazione backup preventivo in: C:\Users\Beppe\Desktop\PADAS DevStudio\applicazioni\Tools\GitMap_Control\gestione_i18n\backup_sorgenti
+[APPLY CODE]   📝 File aggiornato e validato con successo: git_map_core\dialogs\progetti.py
+[APPLY CODE]   📝 File aggiornato e validato con successo: git_map_core\dialogs\riepilogo.py
+[APPLY CODE]   📝 File aggiornato e validato con successo: gestione_i18n\dialog_i18n.py
+[APPLY CODE] ✨ Sostituzione codice completata. Sostituzioni effettuate: 26. File ripristinati: 0.

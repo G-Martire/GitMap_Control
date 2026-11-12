@@ -1,0 +1,9 @@
+{
+  "active_provider": "gemini",
+  "providers": {
+    "gemini": {
+      "api_key": "INSERISCI_QUI_LA_TUA_API_KEY",
+      "default_model": "models/gemini-3.1-flash-lite"
+    }
+  }
+}
