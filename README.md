@@ -1,41 +1,41 @@
 # 🚀 PADAS GitMap Control
 
-> *Parte dell'ecosistema PADAS DevStudio.*
+> *Part of the PADAS DevStudio ecosystem.*
 
-**PADAS GitMap Control** è un'utility "Canvas-First" sviluppata in **Python** e **PyQt6**.
+**PADAS GitMap Control** is a "Canvas-First" developer utility built with **Python** and **PyQt6**.
 
-📍 **Presentato su LinkedIn:** [Connettiti su LinkedIn](https://www.linkedin.com)
+📍 **Featured on LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com)
+*(il link lo aggiorno in data lunedì 16 novembre)*
+---
+
+## 📌 Project Overview
+
+- **What it is:** A developer tool built in Python (with a PyQt6 interface) designed to provide full visual control over coding workflows.
+- **General Purpose:** Automates code development processes, from local Git repository management to UI localization and offline portability.
+- **Core Objective:** Leverages a visual mind-map and table-based interface — eliminating command-line friction — to perform fast macro-comparisons across code versions, drilling down into individual file diffs with a single click.
 
 ---
 
-## 📌 Panoramica del Progetto
+## ⚡ Key Features
 
-* **Cos'è:** Un programma per sviluppatori realizzato in Python (con interfaccia PyQt6) progettato per offrire un controllo visivo totale sui flussi di lavoro.
-* **Scopo Generale:** Automatizzare i processi di sviluppo del codice, dalla gestione dei repository Git alle traduzioni e alla portabilità offline.
-* **Dettaglio dello Scopo:** Sfruttare un'interfaccia grafica visuale a mappa mentale e tabelle — eliminando la riga di comando — per effettuare confronti macro e rapidi tra diverse versioni del codice, scendendo poi nel dettaglio dei singoli file con un solo click.
-
----
-
-## ⚡ Cosa Fa il Programma
-
-* **Git Locale & Diff Visivi:** Esegue operazioni Git locali con un sommario in tabella unito allo stato visivo dei singoli file direttamente sul canvas.
-* **Pipeline di Traduzione IA (i18n):** Scansiona automaticamente il codice Python, estrae le stringhe dell'interfaccia e genera file JSON strutturati (alimentato da Gemini).
-* **Sincronizzazione USB & Esterna:** Esporta un'istantanea pulita del progetto (escludendo `.venv`, cache e `.git`) o solo il delta dell'ultimo commit su disco esterno, reimportando gli aggiornamenti senza sovrascrivere le configurazioni locali.
-* **Ricerca & Navigazione Rapida:** Cerca file nel progetto e li apre direttamente in Esplora Risorse tramite tasto destro.
+- **Local Git & Visual Diffs:** Executes local Git operations with a tabular summary combined with the visual status of individual files directly on the canvas.
+- **AI Translation Pipeline (i18n):** Automatically scans Python codebases, extracts UI strings, and generates structured JSON localization files (powered by Gemini).
+- **USB & External Sync:** Exports a clean project snapshot (excluding `.venv`, cache, and `.git`) or just the latest commit delta to an external drive, re-importing updates without overwriting local configurations.
+- **Quick Search & Navigation:** Searches files across the project and opens them directly in the OS File Explorer via right-click.
 
 ---
 
-## 📖 Documentazione & Guida all'Architettura
+## 📖 Documentation & Architecture Guide
 
-Per l'elenco completo dei moduli, delle fasi della pipeline IA e della struttura delle directory, consulta la guida dettagliata:
+For a complete breakdown of modules, AI pipeline stages, and directory structure, see the detailed technical guide:
 
-👉 [Leggi la Documentazione Tecnica Completa (DOCS.md)](DOCS.md)
+👉 [Read the Full Technical Documentation (DOCS.md)](DOCS.md)
 
 ---
 
-## 📦 Avvio Rapido
+## 📦 Quick Start
 
-### Configurazione per Sviluppatori
+### Developer Setup
 
 ```bash
 git clone [https://github.com/G-Martire/GitMap_Control.git](https://github.com/G-Martire/GitMap_Control.git)
@@ -48,9 +48,9 @@ python main.py
 
 ---
 
-🔮 Roadmap & Sviluppi Futuri
-- [ ] Supporto LLM Esteso: Integrazione con modelli locali oltre a Gemini per le pipeline i18n.
-- [ ] CI/CD Automatizzata: Flussi GitHub Actions per build automatizzate dei file .exe.
-- [ ] Visualizzatore Avanzato di Branch: Mappatura dei nodi migliorata per la risoluzione complessa dei conflitti di merge.
+🔮 Roadmap & Future Developments
+- **Remote Synchronization (GitHub / GitLab):** Native integration of remote operations (`push`, `pull`, `fetch`) directly from the canvas to sync local repositories with the cloud.
+- **Extended LLM Support:** Integration with local models (e.g., LM Studio / Ollama) alongside Gemini for offline i18n pipelines.
+- **Advanced Branch Visualizer:** Enhanced node mapping for fast, visual resolution of complex merge conflicts.
 
 ## MIT License - see LICENSE for details.
