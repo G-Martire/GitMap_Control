@@ -4,8 +4,7 @@
 
 **PADAS GitMap Control** is a "Canvas-First" developer utility built with **Python** and **PyQt6**.
 
-📍 **Featured on LinkedIn:** [Connect on LinkedIn](https://www.linkedin.com)
-*(il link lo aggiorno in data lunedì 16 novembre)*
+📍 **Featured on LinkedIn:** [Connect on LinkedIn](https://lnkd.in/p/d-GGXeh2)
 ---
 
 ## 📌 Project Overview
